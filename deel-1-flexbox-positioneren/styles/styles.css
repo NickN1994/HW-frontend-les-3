@@ -1,1 +1,67 @@
-/*Schrijf hier jouw CSS*/
+/*Opdracht 1*/
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*!*Opdracht 2*!*/
+.blokken-opdracht-2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.blokken-opdracht-2 li {
+    flex-basis: 100%;
+}
+
+
+/*Opdracht 3*/
+.opdr-3-opsomming {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.center {
+    align-self: center;
+}
+.bottom-right {
+    align-self: flex-end;
+}
+
+/*Opdracht 4*/
+.lijst-opdracht-4 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+/*Opdracht 5*/
+.opdracht-5-column {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.blok-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.blok-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+
+.blok-3 {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: flex-end;
+}

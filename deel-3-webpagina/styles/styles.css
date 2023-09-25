@@ -1,1 +1,77 @@
-/*Schrijf hier jouw css*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    /*border: 2px dashed orange;*/
+    background-color: #F2F3D9;
+    gap: 40px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 100px;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    background-color: #151E3F;
+    color: #FFF;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-right: 40px;
+    gap: 30px;
+    list-style: none;
+}
+
+span {
+    display: flex;
+    flex-direction: column;
+
+    /*border: 2px solid deeppink;*/
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    margin: 0 40px;
+}
+
+main {
+    /*border: 2px dashed red;*/
+    flex-basis: auto;
+}
+
+.article-boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 60px;
+    align-items: center;
+    max-width: 2000px;
+}
+
+.article-box-1, .article-box-2, .article-box-3 {
+    background-color: #C16E70;
+    border: 1px solid #C16E70;
+    border-radius: 2%;
+    height: 350px;
+    max-width: 280px;
+}
+
+p {
+    text-align: center;
+}
