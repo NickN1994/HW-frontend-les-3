@@ -60,7 +60,9 @@ main {
     flex-direction: row;
     justify-content: center;
     gap: 60px;
-    max-width: 2000px;
+    flex-basis: 2000px;
+    flex-shrink: 1;
+
 }
 
 .article-box-1, .article-box-2, .article-box-3 {
